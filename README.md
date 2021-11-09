@@ -1,3 +1,3 @@
-# printf
-### this is owne function printf
-#### by Carlos and Frank 
+# _printf
+This is our own _printf function 
+##### Created by **_Carlos Rincon_** and **_Frank Giraldo_** 
