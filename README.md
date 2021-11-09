@@ -1,3 +1,3 @@
 # printf
-## this is owne function printf
-## by Carlos and Frank
+### this is owne function printf
+#### by Carlos and Frank 
