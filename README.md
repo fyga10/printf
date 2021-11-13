@@ -3,6 +3,7 @@ This is our own implementation of the _printf function of the C programming lang
 
 ### Example
 #include "holberton.h"
+
 _printf("The %s jumped %d times! -%c", "dog", 7, 'C');
 output : The dog jumped 7 times! -C
 
