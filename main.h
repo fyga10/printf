@@ -4,13 +4,31 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdarg.h>
-int numbers(int x);
+
+int numbers(long int x);
 int _printf(const char *format, ...);
 int _putchar(char c);
-typedef struct op
+int find_fun(char m, va_list ap);
+int perc(char u);
+int var_c(va_list list);
+int var_i(va_list list);
+int var_s(va_list list);
+int var_d(va_list list);
+/**
+ * struct var - Struct var
+ * @var: operator
+ * @c: includd function
+ */
+typedef struct var
 {
-char *op;
-int (*f)(int a, int b);
-} op_t;
-
+	char *var;
+	int (*c)(va_list ap);
+} var;
+static const var var_t[] = {
+	{"c", var_c},
+	{"i", var_i},
+	{"d", var_d},
+	{"s", var_s},
+	{NULL, NULL},
+};
 #endif
