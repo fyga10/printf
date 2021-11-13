@@ -27,4 +27,8 @@ output : The dog jumped 7 times! -C
 #### Suggestion
 Our program does not handle buffer handling, flag characters, field width, precision, or length modifiers.
 
+## Flowchart
+
+![Preview](https://github.com/fyga10/printf/blob/master/Flowchart.png)
+
 ##### Created by **_Carlos Rincon_** and **_Frank Giraldo_**
