@@ -4,7 +4,9 @@ This is our own implementation of the _printf function of the C programming lang
 ### Example
 #include "holberton.h"
 
+
 _printf("The %s jumped %d times! -%c", "dog", 7, 'C');
+
 output : The dog jumped 7 times! -C
 
 ### Requirements
@@ -22,6 +24,7 @@ output : The dog jumped 7 times! -C
 * va_copy (man 3 va_copy)
 * va_arg (man 3 va_arg)
 
-##### Created by **_Carlos Rincon_** and **_Frank Giraldo_**
+#### Suggestion
+Our program does not handle buffer handling, flag characters, field width, precision, or length modifiers.
 
-Project _printf
+##### Created by **_Carlos Rincon_** and **_Frank Giraldo_**
